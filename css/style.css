@@ -1,0 +1,244 @@
+html{box-sizing: border-box;}
+*,
+*::before,
+*::after{
+box-sizing: inherit;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-width: 1110px;
+    margin: 0;
+    padding:0;
+    font-family:"gilroylight", 'Times New Roman', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bolder;
+    color:#828282;}
+    .container{
+        position: relative;
+        max-width: 945px;
+        margin: 0 auto;
+        }
+
+                                                    /**************header***************/
+                                                        /**********секция 1*********/
+.section_wrapper{
+display: flex; flex-grow:1;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border-bottom:1px solid #828282;}
+.html{overflow: hidden;}
+.info_me{min-width: 945px;}
+.menu_link{font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #828282;
+text-decoration: none;}
+
+.menu_link:hover{color:#000000;
+font-weight: bold;}
+
+            
+.mainmenu_list{
+display: flex;
+list-style: none;
+text-decoration: none;
+padding-top: 20px;
+padding-bottom: 20px;
+white-space: nowrap;}
+.mainmenu_item{
+padding-right: 95px;
+padding-left: 55px;
+}
+
+                                                    /**************секция 2****************/
+.name_denis{
+    color: #000000;
+    font-family: 'gilroyextrabold';
+    font-weight: 400;
+    font-size: 47.3392px;
+    line-height: 59px;}     
+.age_ux{left: 46.49%;
+    right: 42.74%;
+    top: 3.85%;
+    bottom: 95.22%;
+    color: #000000;
+    font-family: 'gilroylight';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+padding-top: 50%;}
+.ruen{padding-top: 7%;
+    font-family: 'gilroyextrabold';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px}
+.black{transform: rotate(-90deg);
+    color: #828282;}
+.colortext{color: #000000;}
+.info_me{
+    display: flex;
+    flex-direction:  row;
+flex-wrap: wrap;
+justify-content: space-between;
+min-width: 945px;
+}
+
+.face{text-align: center;
+width: 945px;
+min-height: 520px;}
+
+                                                            /***секция 3***/
+.about{display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.aboutme3{background-color: #F6F6F6;
+    height: 506px;
+text-align: center;}
+.section3{padding-top: 120px;
+padding-left: 234px;}
+.aboutme_text, .aboutme_h{
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 485px;
+}
+.aboutme_text{color: #000000;
+    font-family: 'gilroylight';
+    font-weight: 400;}
+.aboutme_h{
+    font-family: 'gilroyextrabold';
+    color:#000000; font-weight: 400, Regular;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;}
+                                                                /*****Секция 4*****/
+.programs_text{
+    text-align: center;}
+.allprograms{
+    display: flex;
+    flex-direction:row;
+flex-wrap: wrap;
+justify-content: space-between;
+min-width: 1110px;
+padding-bottom: 111px;}
+.skills_h{font-family: 'gilroyextrabold';
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+color: #000000;}
+.programs_h{padding-top: 91px;}
+.programs_p{padding-top: 69px;
+padding-bottom: 83px;}
+.skills_p{
+    font-family: 'gilroylight';
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #000000;
+}
+.programs, .programs_fg{padding-right: 90px;
+text-align: center;}
+.stars{padding-top: 40px;}
+.allprograms{margin-left:-40px}
+.programs_fg{line-height: 56px;}
+.programs_fg{line-height: 70px;}
+
+                                            /********секция 5,6,7*********/
+.Portfolio{background-color: #F6F6F6;}
+.store_h{text-align: center;
+    font-family: 'gilroyextrabold';
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+    color: #000000;
+}
+    .portfolio_store, .portfolio_concept, .portfolio_bruan, .h{text-align: center;}
+    .portfolio_one, .portfolio_two, .portfolio_free{padding-bottom: 99px;}
+    .store_link{padding-top: 45px;}
+    .homepage{ color: #000000;}
+        .homepage:hover{text-shadow:0 0 10px black;}
+                                                /********секция 5,6,7*********/
+.h{padding-top: 113px;
+        padding-bottom: 47px;}
+                                            /********секция 8, футер*********/
+.contacts{display: flex;
+    flex-direction:column;
+flex-wrap: wrap;
+justify-content: center;
+min-width: 1110px;
+text-align: center;
+}
+.contacts_icons{ display: flex;
+    flex-direction:row;
+flex-wrap: wrap;
+justify-content: center;
+min-width: 1110px;
+}
+.contacts_h{font-family: 'gilroyextrabold';
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+color: #000000;
+padding-top: 114px;}
+.contacts_p{font-family: 'gilroylight';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+color: #000000;
+padding-bottom: 30px}
+.button_massage{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'gilroyextrabold';
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+width: 181px;
+height: 42px;
+border-radius: 25px;
+}
+
+.button_massage:hover{background: rgba(0,0,0,0);
+	color: black;
+	box-shadow:  inset 0 0 0 3px #000000;}
+   
+.sendmassage{text-decoration: none;
+color: #FFFFFF;} 
+.sendmassage:hover{color: #000000;}
+.contacts_icons{padding-top: 86px;
+}
+.instagram, .linkedin, .behance, .dribble{margin-right:62px;
+    margin-left:62px;}
+    .instagram:hover{opacity: .50;}
+    .linkedin:hover{opacity: .50;}
+     .behance:hover{opacity: .50;}
+     .dribble:hover{opacity: .50;}
+    .smalltext{font-family: 'gilroylight';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #828282;
+    margin-bottom: 123px;
+margin-top:45px;}
+
+/**********медиа запросы***********/
+@media(max-width:945px){
+    .container{width: auto;
+    padding: 0 30px;}
+}
+@media(max-width:768px){
+    .header{min-height: 90px;}
+}
+@media(max-width:992px){
+    .menu_wrapper{flex-wrap: wrap;}
+}
